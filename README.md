@@ -2,7 +2,7 @@
 
 A 6-player social-deduction game (Chinese-style 狼人杀 6-board). Five of the players are
 AI characters played by Claude. One is you. The AI characters keep persistent diaries
-between games — grudges, debts and reputations carry over.
+between games — grudges, debts and reputations carry over. 
 
 ## Setup
 
