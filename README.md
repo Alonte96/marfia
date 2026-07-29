@@ -12,7 +12,7 @@ between games — grudges, debts and reputations carry over.
    ```sh
    cp .env.example .env
    # then open .env and paste your key
-   ```
+   ``` 
 
 3. **Install & run:**
 
