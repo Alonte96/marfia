@@ -1,5 +1,6 @@
 // Headless engine verification: auto-plays many games with random-legal (stub)
 // decisions and asserts the rules invariants hold. Run with `npm test`.
+// nothing, just testing
 import {
   newGame,
   pendingAction,
