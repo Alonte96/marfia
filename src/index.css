@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+textarea,
+input,
+select {
+  font-family: inherit;
+}
+
+/* Night sky stars */
+@keyframes ww-twinkle {
+  0%,
+  100% {
+    opacity: 0.15;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+.ww-star {
+  position: absolute;
+  border-radius: 50%;
+  background: #c7d6d4;
+  animation: ww-twinkle 3.5s ease-in-out infinite;
+}
+
+/* New chronicle entries fade and rise in */
+@keyframes ww-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.ww-enter {
+  animation: ww-enter 0.55s ease-out both;
+}
+
+/* The sun/moon drifts gently */
+@keyframes ww-drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.ww-drift {
+  animation: ww-drift 7s ease-in-out infinite;
+}
+
+/* "…is choosing words" lines breathe */
+@keyframes ww-breathe {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.ww-breathe {
+  animation: ww-breathe 1.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ww-star {
+    animation: none;
+    opacity: 0.55;
+  }
+  .ww-enter,
+  .ww-drift,
+  .ww-breathe {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+  * {
+    scroll-behavior: auto !important;
+  }
+}
