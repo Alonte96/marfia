@@ -4,6 +4,7 @@
 // 2. spot-checks the prompts being sent for information leaks;
 // 3. runs the diary flow (which must silently skip on API failure).
 // say hello to me
+// 4. ignore this
 import {
   newGame,
   pendingAction,
