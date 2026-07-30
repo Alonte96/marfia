@@ -57,3 +57,6 @@ diaries. They will remember.
 - JavaScript
 - Node.js
 - Git
+## About
+
+This is a JavaScript project created for learning and experimentation.
