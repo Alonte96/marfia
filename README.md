@@ -52,6 +52,11 @@ village wins when both wolves hang; the wolves win when both villagers — or bo
 seer and the witch — are gone. And when the game ends, the characters write their
 diaries. They will remember.
 
+## Technologies
+
+- JavaScript
+- Node.js
+- Git
 ## About
 
 This is a JavaScript project created for learning and experimentation.
