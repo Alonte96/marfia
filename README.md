@@ -51,3 +51,7 @@ everyone speaks once, then votes openly. Banished players keep their secrets. Th
 village wins when both wolves hang; the wolves win when both villagers — or both the
 seer and the witch — are gone. And when the game ends, the characters write their
 diaries. They will remember.
+
+## About
+
+This is a JavaScript project created for learning and experimentation.
